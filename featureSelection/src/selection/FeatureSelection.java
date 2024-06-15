@@ -14,6 +14,8 @@ import selection.utils.FeatureSelectionUtils;
  * best and worst instances. This is an abstract class, so
  * should be extended to add a feature selection method -
  * it can not be instantiated.
+ * 
+ * Adapted from https://github.com/benjaminpatrickevans/FeatureSelectionWithJava
  */
 public abstract class FeatureSelection {
 	
