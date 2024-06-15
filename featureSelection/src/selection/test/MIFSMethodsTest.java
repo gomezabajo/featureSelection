@@ -73,7 +73,7 @@ public class MIFSMethodsTest {
 		}
 		FeatureSelection backward = new SequentialBackwardSelection(features, im, imx);
 		System.out.println("backward:--------------------");
-		Set<Integer> backwardSelected = backward.select(5, true);
+		Set<Integer> backwardSelected = backward.select(features.size(), true);
 		System.out.println("selected: " + FeatureSelectionUtils.featureSet2String(backwardSelected));
 		System.out.println("-----------------------------");
 		System.out.println("forward:---------------------");
