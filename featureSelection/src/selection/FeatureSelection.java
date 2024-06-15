@@ -85,7 +85,7 @@ public abstract class FeatureSelection {
             newFeatures.remove(feature);
 
             double result = evaluate(newFeatures);
-            if (result > highestAccuracy) {
+            if (result >= highestAccuracy) {
                 highestAccuracy = result;
                 selected = feature;
             }
